@@ -40,4 +40,10 @@
 .individual-staff-member-data {
     float: left;
     overflow-wrap: normal;
+    width: 65%;
+}
+
+.staff-img {
+    float: left;
+    width: 35%
 }

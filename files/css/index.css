@@ -1,5 +1,26 @@
 @import url("common.css");
 @import url("slideshow.css");
+
+#overlapping-text-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.25em;
+}
+
+#overlapping-text-container img {
+    filter: brightness(50%);
+
+}
+
+#overlapping-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #first-article-first-text {
     font-weight: lighter;
     line-height: 1.333;
